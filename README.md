@@ -1,16 +1,13 @@
-### Image to PDF Converter
----
+# Image to PDF Converter
 
-#### Dependencies:
+## Dependencies:
 
-###### PIL
-Install `Python Image Library` with
+### PIL:
+Install by entering this command in the terminal
 
 ```
 pip install pillow
 ```
-
-in the terminal
 
 ---
 
