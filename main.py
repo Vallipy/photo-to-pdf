@@ -18,7 +18,10 @@ def add_path(item):
 	return pics_dir + str(item)
 
 # sorted list of files' path
-files = list(map(add_path, sorted(files[1:], key=sorter)))
+if '.gitkeep' in files:
+	files.remove('.gitkeep')
+
+files = list(map(add_path, sorted(files, key=sorter)))
 
 # save to pdf
 images = []
