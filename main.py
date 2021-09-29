@@ -18,7 +18,7 @@ def add_path(item):
 	return pics_dir + str(item)
 
 # sorted list of files' path
-files = list(map(add_path, sorted(files, key=sorter)))
+files = list(map(add_path, sorted(files[1:], key=sorter)))
 
 # save to pdf
 images = []
